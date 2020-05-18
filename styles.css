@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "BentonSansF-Bold";
+  src: url("assets/BentonSansF-Bold.otf");
+  font-family: "BentonSansF-Book";
+  src: url("assets/BentonSansF-Book.otf");
+}
+
+header {
+  padding-left: 5em;
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
+
+body {
+  background-color: #121212;
+  overflow-x: hidden;
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
+
+h1 {
+  font-family: "BentonSansF-Bold";
+  font-style: normal;
+  font-size: 10vw;
+  color: white;
+  margin-bottom: 0px;
+  text-align:center;
+}
+
+h2 {
+  font-family: "BentonSansF-Bold";
+  font-size: 30px;
+  /* font-style: italic; */
+  color: white;
+  text-align:center;
+}
+
+#back {
+  font-family: "BentonSansF-Bold";
+  font-size: 30px;
+  /* font-style: italic; */
+  color: white;
+  text-align:left;
+}
+
+.description {
+  padding-left: 4em;
+  margin-top: 2em;
+  font-family: "BentonSansF-Book";
+  font-size: 20px;
+  font-style: thin;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+canvas {
+  width: auto;
+  margin-left: 5em;
+  margin-bottom: 5em;
+  filter: drop-shadow(0px 0px 24px #000000);
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+td {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Montserrat';
+}
+
+#galery {
+  margin-left: 5em;
+  padding-bottom: 2em;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  filter: drop-shadow(0px 0px 24px #000000);
+  -webkit-overflow-scrolling: touch;
+}
+
+img {
+  margin-right: 1em;
+  height: 620px;
+  width: 400px;
+  border-radius: 3pt;
+  transition: 0.5s;
+  display: inline-block;
+}
+
+img:hover {
+  height: 620px;
+  width: 400px;
+  border-radius: 8pt;
+  transition: 0.5s;
+  display: inline-block;
+}
